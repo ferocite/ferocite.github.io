@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+    <div class="container">
+        <!-- Hero Section Start -->
+        <nav class="nav-bar-container" >
+            <div>
+                <img id="nav-bar-image" src="./assets/logo.png" alt="">
+            </div>
+            <div>
+            <ul class="nav-bar" >
+                <li class="nav-item"><a href="#home" >Home</a></li>
+                <li class="nav-item"><a href="#about" >About</a></li>
+                <li class="nav-item"><a href="#services" >Services</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+
+
+
+            <!-- Mobile Navbar -->
+
+            <!-- Hamburger -->
+            <div class="fa-solid fa-bars" id="hamburger" style="color: #fcfcfc;"></div>
+
+            <!--  -->
+            <div class="mobile-nav" id="mobile-nav" >
+                <ul>
+                    <li class="mobile-nav-item" id="homebtn"><a href="#home" >Home</a></li>
+                    <li class="mobile-nav-item"><a href="#about" >About</a></li>
+                    <li class="mobile-nav-item"><a href="#services" >Services</a></li>
+                    <li class="mobile-nav-item"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            </div>
+            
+        </nav>
+        <div class="hero-section" id="home" >
+            <div class="heroVector">
+                <img class="vector-image" src="./assets/heroVector.svg" alt="">
+
+            </div>
+            
+            
+            <div class="hero-text" >
+                <h1>We are a prominent organization <br> with a highly skilled <br> workforce </h1>
+                <img  class="doodle" src="./assets/doodle.svg" alt="">
+            </div>
+        </div>
+        <!-- Hero Section End -->
+
+        <!-- About Us Start -->
+        <div class="about-us-container" id="about" >
+            <div class="main-about-us">
+                <div class="left">
+                    <header>
+                        About us
+                    </header>
+                    <p>
+                        At Ferocite, we are dedicated to transforming 
+                        your goals into reality through our comprehensive range
+                        of expert services. With a passion for excellence and a 
+                        commitment to innovation, we take pride in being your
+                        partner in success.
+                    </p>
+                </div>
+                <div class="right">
+                    <img src="./assets/aboutUs.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- About Us End -->
+
+        <!-- Services Start -->
+        <div class="services-container" id="services" >
+            <header>Our Services</header>
+            <div class="services-items-container">
+                <div class="services-item">
+                    <div class="img-container">
+                        <i class="fa-solid fa-globe" style="color: #ffffff; font-size: 90px; "></i>                        
+                    </div>
+                    <div class="heading" >Technical Services</div>
+                    <p>Web Development <br> Logo Designing <br> Graphic Designing <br> SEM</p>
+                </div>
+                <div class="services-item">
+                    <div class="img-container">
+                        <i class="fa-regular fa-lightbulb" style="color: #ffffff; font-size: 90px;"></i>                       
+                    </div>
+                    <div class="heading" >Creative Services</div>
+                    <p>Blogging Content <br> Writing Social Media <br>Marketing Video <br> Creation</p>
+                </div>
+                <div class="services-item">
+                    <div class="img-container">
+                        <i class="fa-brands fa-searchengin" style="color: #ffffff; font-size: 90px; "></i>                        
+                    </div>
+                    <div class="heading" >Research Services</div>
+                    <p> Market Research <br>
+                          Trend Analysis <br>
+                        Financial Market Research <br>
+                        Competitive Analysis 
+                    </p>
+                </div>
+                <div class="services-item">
+                    <div class="img-container">
+                        <i class="fa-solid fa-handshake-angle" style="color: #ffffff; font-size: 90px;"></i>                        
+                    </div>
+                    <div class="heading" >Consultation</div>
+                    <p>Finance <br> Business</p>
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+        <!--Contact Us starts-->
+        <div class="contact-container" id="contact">
+            <header>Contact Us</header>
+            <h1>Want to discuss your project?</h1>
+        </div>
+        <div class="form-box">
+
+            <form action="https://formsubmit.co/testferocite@gmail.com" method="POST">
+                <div class="input-container">
+                    
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                </div>
+                <div class="input-container">
+                    
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="input-container">
+                    
+                    <textarea name="message" placeholder="Message" required></textarea>
+                </div>
+                <input class="submit-button" type="submit" value="Submit">
+            </form>
+            
+        </div>
+
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
